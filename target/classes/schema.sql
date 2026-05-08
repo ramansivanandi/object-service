@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS objects (
     updated_at  TIMESTAMP    NOT NULL DEFAULT NOW()
 );
 
-CREATE TABLE IF NOT EXISTS dbservice (
+CREATE TABLE IF NOT EXISTS bo_t_dbservice (
     id          BIGSERIAL    PRIMARY KEY,
     name        VARCHAR(255) NOT NULL,
     description TEXT,

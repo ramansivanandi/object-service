@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("dbservice")
+@Table("bo_t_dbservice")
 public class DbServiceEntity {
 
     @Id
