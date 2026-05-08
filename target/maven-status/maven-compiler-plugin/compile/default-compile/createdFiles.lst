@@ -1,0 +1,16 @@
+com/objectservice/model/DbServiceEntity.class
+com/objectservice/service/DbQueryExecutorService.class
+com/objectservice/service/ObjectService.class
+com/objectservice/model/DbQueryResult.class
+com/objectservice/config/GlobalExceptionHandler.class
+com/objectservice/config/R2dbcConfig.class
+com/objectservice/model/ObjectEntity$ObjectEntityBuilder.class
+com/objectservice/repository/DbServiceRepository.class
+com/objectservice/controller/ObjectController.class
+com/objectservice/model/ObjectRequest.class
+com/objectservice/controller/DbServiceController.class
+com/objectservice/model/ObjectEntity.class
+com/objectservice/repository/ObjectRepository.class
+com/objectservice/ObjectServiceApplication.class
+com/objectservice/model/DbServiceEntity$DbServiceEntityBuilder.class
+com/objectservice/model/DbServiceRequest.class

@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: object-service
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: ramansivanandi
+    password: postgresql
+    pool:
+      initial-size: 5
+      max-size: 20
+      max-idle-time: 30m
+      max-life-time: 60m
+      max-acquire-time: 5s
+      max-create-connection-time: 5s
+      validation-query: SELECT 1
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    com.objectservice: DEBUG
+    io.r2dbc: DEBUG
